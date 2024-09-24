@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact_detail_container{
+    background-color: rgb(228, 228, 228);
+   
+}
+
+#contact_detail{
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+hr{
+    height: 1px;
+    background-color: gray;
+    opacity: 0.2;
+}
+
+#logo{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:1000px){
+    #logo{
+        height: 50px;
+    }
+    margin-top: 40px;
+}
+
+@media all and (max-width:580px){
+    #logo{
+        height: 30px;
+    }
+}
+#logo_container{
+    display: flex;
+   
+    background-color: white;    
+    width: 100;
+}
+
+#bar{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#sign-in{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#search-logo{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.nav ul{
+    margin-top: 50px;
+    
+    justify-content: space-around;
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+    text-decoration: 5px solid underline;
+    
+}
+#display_car_container{
+    display: flex
+}
+
+#display_car{
+
+    margin:0 auto;
+    margin-top: 30px;
+    height: 700px;
+}
+
+/* card */
+#car{
+    margin-top: 50px;
+    width: 400px;
+    margin-top: ;
+}
+
+#car img{
+    width: 400px;
+}
+
+#comming{
+    margin-top: 50px;
+    text-align: center;
+    s
+}
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#comming-soon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media i{
+    margin-left: 50px;
+}
+footer{
+    letter-spacing: 2px;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+#footer-img{
+    margin-left: 20px;
+    height: 50px;
+}
+
+footer input{
+    height: 40px;
+    width: 250px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+}
+#main-car-info p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+#main-car-info{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    color: white;
+}
+
+span{
+    font-size: 80px;
+    font-weight: 900;
+}
+#comming-soon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-three li{
+}
+
+#footer-three li a{
+    text-decoration: none;
+    line-height: 30px;
+
+}
+
+#copyright{
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
